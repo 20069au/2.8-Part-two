@@ -1,4 +1,26 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: white;
+}
+
+.header {
+  height: 450px;
+  background-color: #E2CECD;
+}
+
+section {
+  height: 475px;
+  background-color: #AB977F;
+}
+
+div h1{
+  font-family: 'Aboreto', cursive;
+  font-size: 90px;
+  color: black;
+}
+
+div h2{
+  font-family: 'Aboreto', cursive;
+  color: black;
 }
