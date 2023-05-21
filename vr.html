@@ -7,13 +7,81 @@
   <title>ADD TITLE</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!--Installing A-Frame-->
+		<script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+
+  <!-- A-frame extras-->
+	<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+	<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script>
 	
 </head>
 
 <body>
+<a-scene>
 
+  <!-- ASSETS +++++++++++++++++++++ -->
+		<a-assets>
+			<a-asset-item id="bongos" src="models/bongos.glb"></a-asset-item>
+
+      <a-asset-item id="cello" src="models/cello.glb"></a-asset-item>
+
+      <a-asset-item id="drum" src="models/drum.glb"></a-asset-item>
+
+      <a-asset-item id="flute" src="models/flute.glb"></a-asset-item>
+
+      <a-asset-item id="guitar" src="models/guitar.glb"></a-asset-item>
+
+      <a-asset-item id="piano" src="models/piano.glb"></a-asset-item>
+
+      <a-asset-item id="sax" src="models/sax.glb"></a-asset-item>
+
+      <a-asset-item id="trumpet" src="models/trumpet.glb"></a-asset-item>
+
+      <a-asset-item id="violin" src="models/violin.glb"></a-asset-item>
+
+      <a-asset-item id="xylophone" src="models/xylophone.glb"></a-asset-item>
+    </a-assets>
+
+
+  <!-- FLOOR -->
+    <a-plane id="floor" color="#4a2d26" position="0 -1 0" rotation="-90 0 0" scale="30 30 30"></a-plane>
+  
+
+  <!--WALLS-->
+  <a-box id="leftwall" color="#b8cbde" scale="0.5 10 30" position="-15 0 0"></a-box>
+
+  <a-box id="rightwall" color="#b8cbde" scale="0.5 10 30" position="15 0 0"></a-box>
+
+  <a-box id="backwall" color="#b8cbde" scale="0.5 10 30" position="0 0 -15" rotation="0 90 0"></a-box>
+
+  <a-box id="frontwall" color="#b8cbde" scale="0.5 10 30" position="0 0 15" rotation="0 90 0"></a-box>
+
+
+  <!-- 3D MODELS -->
+  <a-entity gltf-model="#bongos" position="0 -1 0" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#cello" position="1 -1 2" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#drum" position="2 -2 -1" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#flute" position="-2 -1 -2" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#guitar" position="-3 -1 2" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#piano" position="10 -1 5" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#sax" position="-10 -1 -5" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#trumpet" position="-7 -1 5" scale='0.1 0.1 0.1'></a-entity>
+
+  <a-entity gltf-model="#violin" position="5 -1 -10" scale='0.25 0.25 0.25'></a-entity>
+
+  <a-entity gltf-model="#xylophone" position="-5 -1 10" scale='0.25 0.25 0.25'></a-entity>
 
   
+</a-scene>
 </body>
 
 </html>

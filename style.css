@@ -55,7 +55,7 @@ nav h2 {
 }
 
 section {
-  height: 416px;
+  height: 400px;
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -102,4 +102,9 @@ header h2{
   width: 50%;
   scale: 150%;
   margin-top: 75px;
+}
+
+.info_img {
+  scale: 25%;
+  border: solid;
 }
