@@ -105,6 +105,29 @@ header h2{
 }
 
 .info_img {
-  scale: 25%;
+  scale: 20%;
   border: solid;
+}
+
+.keys_img {
+  width: 100%;
+  scale: 90%;
+}
+
+.cursor_img {
+  width: 55%;
+}
+
+.sidemouse_img {
+  display: inline;
+  font-size: 15px;
+  line-height: 22.5px;
+  text-align: center;
+}
+
+.updownmouse_img {
+  display: inline;
+  font-size: 15px;
+  line-height: 22.5px;
+  text-align: center;
 }
