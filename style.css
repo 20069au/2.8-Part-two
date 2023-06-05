@@ -117,17 +117,3 @@ header h2{
 .cursor_img {
   width: 55%;
 }
-
-.sidemouse_img {
-  display: inline;
-  font-size: 15px;
-  line-height: 22.5px;
-  text-align: center;
-}
-
-.updownmouse_img {
-  display: inline;
-  font-size: 15px;
-  line-height: 22.5px;
-  text-align: center;
-}
