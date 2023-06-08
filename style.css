@@ -13,10 +13,10 @@ html {
   position: relative;
 }
 
-nav :hover {
+/*nav :hover {
   background-color: gray;
   color: black;
-}
+}*/
 
 .enter {
   height: 125px;
@@ -45,13 +45,14 @@ nav :hover {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  padding-bottom: 14px;
+  /*padding-bottom: 14px;*/
 }
 
 nav h2 {
   font-family: 'Aboreto', cursive;
   color: #E2CECD;
   font-size: 28px;
+  padding-bottom: 14px;
 }
 
 section {
@@ -116,4 +117,9 @@ header h2{
 
 .cursor_img {
   width: 55%;
+}
+
+footer {
+  background-color:  #E2CECD;
+  color: #4a3521;
 }
