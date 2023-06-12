@@ -6,7 +6,7 @@ html {
 
 .header {
   height: 450px;
-  /*background-color: #E2CECD;*/
+  background-color: #E2CECD;
 }
 
 .container {
@@ -18,7 +18,7 @@ html {
   height: 125px;
   width: 275px;
   border-style: solid;
-  /*background-color: #604831;*/
+  background-color: #604831;
   margin-top: 50px;
   position: absolute;
   text-align: center;
@@ -28,7 +28,7 @@ html {
   height: 50px;
   width: 255px;
   border-style: solid;
-  /*background-color: #604831;*/
+  background-color: #604831;
   margin-top: 190px;
   position: absolute;
   text-align: center;
@@ -45,7 +45,7 @@ html {
 
 nav h2 {
   font-family: 'Aboreto', cursive;
-  /*color: #E2CECD;*/
+  color: #E2CECD;
   font-size: 28px;
   padding-bottom: 14px;
 }
@@ -64,12 +64,12 @@ section {
 header h1{
   font-family: 'Aboreto', cursive;
   font-size: 90px;
-  /*color:#4a3521;*/
+  color:#4a3521;
 }
 
 header h2{
   font-family: 'Aboreto', cursive;
-  /*color: #4a3521;*/
+  color: #4a3521;
 }
 
 .piano_img {
@@ -114,7 +114,16 @@ header h2{
   width: 55%;
 }
 
-/*footer {
+footer {
   background-color:  #E2CECD;
   color: #4a3521;
-}*/
+}
+
+.creditsBtn {
+  background-color: #4a3521;
+  color:#E2CECD; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
